@@ -37,3 +37,6 @@ ax[0,0].scatter(X_test,y_test)
 ax[0,0].plot(X_test,pred)
 
 st.pyplot(fig)
+
+text_contents = '''This is some text'''
+st.download_button('Download some text', text_contents)
